@@ -5,7 +5,7 @@
 Conda를 이용해 Jupyter를 사용한 계산 환경을 만들어서 수요일, 목요일 두 튜토리얼 세션에 같이 사용합니다.
 
 **설치하는 데에 시간이 걸리므로 반드시 사전에 설치해 주세요.**
-**가능한 한 로컬에 계산 환경을 세팅해서 오실 것을 추천합니다.**
+**무선 인터넷 환경이 좋지 않으므로 꼭 미리 설치해 오셔서 로컬 계산 환경을 사용하실 것을 추천합니다.**
 
 ### 1. Miniconda 설치
 
@@ -15,7 +15,7 @@ Conda를 이용해 Jupyter를 사용한 계산 환경을 만들어서 수요일,
 
 :warning: 만약 본인의 Windows 계정 이름이 한글이어서 `%USERPROFILE%` 경로가 "C:\\Users\\홍길동"과 같이 한글이 포함되어 있는 경우 제대로 동작하지 않을 수 있으니, 기본 옵션이 아닌 한글과 공백을 포함하지 않는 새로운 경로(예: C:\\opt\\Miniconda 등)에 설치하세요.
 
-Windows의 경우 아래부터는 일반 Command prompt(cmd)나 PowerShell이 아닌 Anaconda/Miniconda prompt를 이용해야 합니다.
+Windows의 경우 아래부터는 일반 명령 프롬프트(cmd)나 PowerShell이 아닌 Anaconda/Miniconda Prompt를 이용해야 합니다.
 
 ### [선택사항] Conda 업데이트
 
@@ -29,7 +29,7 @@ conda update -n base -c defaults conda
 Git이 이미 설치되어 있고 익숙하시면
 
 ```shell
-git clone http://github.com/dlimpid/nims-moderator-2019-04.git
+git clone https://github.com/dlimpid/nims-moderator-2019-04.git
 ```
 
 을 실행하셔도 됩니다.
